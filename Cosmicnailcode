@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cosmic Nails by Rae</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header, footer {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      color: #f00;
+      margin: 0;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1604430352204-e9d0c80f8e60') no-repeat center center/cover;
+      padding: 100px 20px;
+      position: relative;
+    }
+    .hero h2 {
+      font-size: 3em;
+      color: #fff;
+      text-shadow: 0 0 10px #f00;
+    }
+    .btn {
+      background-color: #f00;
+      border: none;
+      padding: 12px 24px;
+      color: #fff;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li {
+      margin: 10px 0;
+    }
+    .gallery img {
+      width: 250px;
+      height: auto;
+      margin: 10px;
+      border: 2px solid #f00;
+      border-radius: 10px;
+    }
+    .contact a {
+      color: #f00;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cosmic Nails by Rae</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#book">Book Now</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Where cosmic energy meets artistry</h2>
+    <a href="#book" class="btn">Book Your Slot</a>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Hi! I’m Rae – your nail artist and the stargirl behind Cosmic Nails. Each set I make is a piece of art, inspired by celestial beauty and personal vibes.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Gel Manicure – ₱350</li>
+      <li>Gel-X Extensions – ₱1,300</li>
+      <li>Nail Art Add-ons – starts at ₱100</li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <img src="https://via.placeholder.com/250x300?text=Nail+Set+1" alt="Nail Set 1">
+    <img src="https://via.placeholder.com/250x300?text=Nail+Set+2" alt="Nail Set 2">
+    <img src="https://via.placeholder.com/250x300?text=Nail+Set+3" alt="Nail Set 3">
+  </section>
+
+  <section id="book">
+    <h2>Book Now</h2>
+    <p>Check my Instagram highlights or stories to see available slots. DM to book ✨</p>
+    <a href="https://instagram.com/your_ig_here" class="btn" target="_blank">DM Me on Instagram</a>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>📍 Tetuan, Zamboanga City<br>
+    💌 <a href="https://instagram.com/your_ig_here" target="_blank">@cosmicnailsbyrae</a><br>
+    ⏰ Slots released weekly</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cosmic Nails by Rae. All rights reserved.</p>
+  </footer>
+</body>
+</html>
